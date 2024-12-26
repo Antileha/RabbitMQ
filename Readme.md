@@ -79,33 +79,6 @@ docker-compose up --build -d
 '''   
 
 
-Структура проекта  
-plaintext
-
-
-
-├── docker-compose.yml         # Конфигурация Docker Compose  
-├── logs/                      # Директория для логов и графиков  
-│   ├── metric_log.csv         # CSV файл с метриками  
-│   ├── error_distribution.png # График распределения ошибок  
-├── features/  
-│   ├── Dockerfile             # Dockerfile для сервиса features  
-│   ├── src/  
-│       └── features.py        # Код сервиса features  
-├── model/  
-│   ├── Dockerfile             # Dockerfile для сервиса model  
-│   ├── src/  
-│       └── model.py           # Код сервиса model  
-├── metric/  
-│   ├── Dockerfile             # Dockerfile для сервиса metric  
-│   ├── src/  
-│       └── metric.py          # Код сервиса metric  
-├── plot/  
-│   ├── Dockerfile             # Dockerfile для сервиса plot  
-│   ├── src/  
-│       └── plot.py            # Код сервиса plot  
-└── Readme.md                  # Основная документация проекта  
-
 ## Логика микросервисов  
 
 1. features  
